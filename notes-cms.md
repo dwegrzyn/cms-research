@@ -1,64 +1,64 @@
 
-Files:
-
-grav-with-bones-theme: an installation of grav with admin plugin and bones theme
-automad: installation of automad
-
+##Files:
+- grav-with-bones-theme: an installation of grav with admin plugin and bones theme
+- automad: installation of automad
 
 
-———————————————————————————————————FLATFILE CMS RESEARCH——————————————————————————————————
+***
 
-*Automad (PHP)
-- no online demo
-- markdown editing 
-+ browser-based GUI
-+ more intuitive representation of data used by template (blanks to fill for page variables)
-+ templates/themes can use page variables to fill in content
-+ documentation
-- limited community support (not many detailed tutorials, forums, etc)
-+ simpler/cleaner file layout
-- no pre-made themes besides default
+##FLATFILE CMS RESEARCH
 
-Typesetter
-+ includes themes (but quality/variety questionable)
-- less grid flexibility
-+ WSIWYG editor
-- online demo available
+- Automad (PHP)
+	- no online demo
+	- markdown editing 
+	+ browser-based GUI
+	+ more intuitive representation of data used by template (blanks to fill for page variables)
+	+ templates/themes can use page variables to fill in content
+	+ documentation
+	- limited community support (not many detailed tutorials, forums, etc)
+	+ simpler/cleaner file layout
+	- no pre-made themes besides default
 
-
-Pulse
-- costs $$$
-+ mobile editor
-- build with blocks
-- not intuitive
-- online demo available
-- WSIWYG editor supposedly
-- not sure how to have client just create pages based on template or something
-
-*Grav (PHP)
-- markdown editing
-- uses Twig php templating engine 
-+ various plugins available
-+ admin dashboard plugin
-+ existing themes / modifications
-+ custom page variables
-- no online demo
-+ bigger community
-+ good documentation
-- more complex file layout than automad
-- uses yaml “blueprints” (not sure exactly how these work)
-+ “module” template allows pages to be built from templated sections (bootstrap style)
+- Typesetter
+	+ includes themes (but quality/variety questionable)
+	- less grid flexibility
+	+ WSIWYG editor
+	- online demo available
 
 
-WonderCMS
-+ in page editing
-- not sure about consistent styling/theming
-- not many plugins/themes
-+ TINY (5 files)
+- Pulse
+	- costs $$$
+	+ mobile editor
+	- build with blocks
+	- not intuitive
+	- online demo available
+	- WSIWYG editor supposedly
+	- not sure how to have client just create pages based on template or something
+
+- Grav (PHP)
+	- markdown editing
+	- uses Twig php templating engine 
+	+ various plugins available
+	+ admin dashboard plugin
+	+ existing themes / modifications
+	+ custom page variables
+	- no online demo
+	+ bigger community
+	+ good documentation
+	- more complex file layout than automad
+	- uses yaml “blueprints” (not sure exactly how these work)
+	+ “module” template allows pages to be built from templated sections (bootstrap style)
+
+
+- WonderCMS
+	+ in page editing
+	- not sure about consistent styling/theming
+	- not many plugins/themes
+	+ TINY (5 files)
 
 razorCMS (PHP)
-+ edit in page
-- no online demo
+	+ edit in page
+	- no online demo
 
 Others:
 Siteleaf

@@ -1,12 +1,14 @@
-Files:
-fbapp/public/Moderna/scraped_homepage_moderna_adaptation.html 
-fbapp/public/Medicio/scraped_homepage_medicio_adaptation.html
+## Files:
+- fbapp/public/Moderna/scraped_homepage_moderna_adaptation.html 
+- fbapp/public/Medicio/scraped_homepage_medicio_adaptation.html
 
 (Both Moderna & Medicio use Bootstrap)
 
-———————————————————————————MODERNA - HOME———————————————————————————
+***
 
-Stuff Changed:
+## MODERNA - HOME
+
+### Stuff Changed:
 - ul .subMenu -> .dropdown-menu
 - li .dropdOwn -> .dropdown
 - added classes for nav, ul, and li
@@ -15,23 +17,24 @@ Stuff Changed:
 - Made footer + sub-footer with contact info (extra containers/rows/widget class)
 - skipped Portfolio section and extra Footer Widgets
 
-*For the dynamic content demo (not part of theme):
+### For the dynamic content demo (not part of theme):
 - adjusted buttons (added own custom CLICKABLE class) 
 - added js for button listeners to tailor content onclick for researchers, clinicians, families, and coaches
 
-Unique Elements:
+### Unique Elements:
   —slider (ul with li containing img, caption div, and see more link)
   —boxes AKA readmore modules (had to rearrange text into box divs)
 
 
-Issues:
+### Issues:
 - slider image heights not auto adjusted (need to be same height)
 - boxes heights not auto adjusted (fit to contents -> not all same height)
 - menu subheaders no longer link to a page, just open submenu
 
-———————————————————————————MEDICIO - HOME——————————————————————————————
+***
+## MEDICIO - HOME
 
-Stuff Changed (from Moderna adaption to Medicio):
+### Stuff Changed (from Moderna adaption to Medicio):
 - body classes (scroll top)
 - changed logo area “.container” div -> “.top-area”
 - inserted “container”, “row”, “cols” for top area of header
@@ -47,7 +50,7 @@ Stuff Changed (from Moderna adaption to Medicio):
 - added padding classes
 -added intro section
 
-Unique Elements:
+### Unique Elements:
 - boxes (similar to Moderna, slightly diff classes/styling)
 - reviews section
 - sortable image (staff) section
@@ -56,25 +59,25 @@ Unique Elements:
 - carousel
 - padding classes (nopadding, paddingtop-40, etc)
 
-Issues:
+### Issues:
 - 1 pager theme -> Doesn’t really seem to fit with content
 - boxes are the same but other widgets (doctors, plans, features) don’t make sense with content
 
-———————————————————————————COMMON ELEMENTS between themes———————————————————————————
+***
 
-“Callaction” sections
+## COMMON ELEMENTS between themes
 
-Top Menus:
-- hold ul links in a “collapse” class div
-- use same dropdown classes
-- hold entire nav/header area inside a “navbar” classed element
-- use “navbar-brand” for logo link
-- Menu DIFFERENCES:
- - Moderna: no nav tags (hold everything in header/ container div)
- - Medicio: no header tags (hold everything in nav/ container div)
- - Medicio: split top and bottom areas
- - Moderna: split into header (name) and link areas
+- “Callaction” sections
+- Top Menus:
+	- hold ul links in a “collapse” class div
+	- use same dropdown classes
+	- hold entire nav/header area inside a “navbar” classed element
+	- use “navbar-brand” for logo link
+	- Menu DIFFERENCES:
+		- Moderna: no nav tags (hold everything in header/ container div)
+		- Medicio: no header tags (hold everything in nav/ container div)	
+		- Medicio: split top and bottom areas
+		- Moderna: split into header (name) and link areas
 
-Boxes
-
-Footer/Sub-Footer
+- Boxes for features
+- Footer/Sub-Footer
