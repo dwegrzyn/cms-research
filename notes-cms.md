@@ -1,12 +1,12 @@
 
-##Files:
+## Files:
 - grav-with-bones-theme: an installation of grav with admin plugin and bones theme
 - automad: installation of automad
 
 
 ***
 
-##FLATFILE CMS RESEARCH
+## FLATFILE CMS RESEARCH
 
 - Automad (PHP)
 	- no online demo
@@ -56,52 +56,49 @@
 	- not many plugins/themes
 	+ TINY (5 files)
 
-razorCMS (PHP)
+- razorCMS (PHP)
 	+ edit in page
 	- no online demo
 
-Others:
-Siteleaf
-Statamic
-Processwire - don't think this is flat-file
-Anchor (PHP?)
-	- only supports latest browsers
-Cloud Cannon / Jekyll / Ruby
-	- cloud-based
-	- good editor for nontechs?
+- Others:
+	- Siteleaf
+	- Statamic
+	- Processwire - don't think this is flat-file
+	- Anchor (PHP?)- only supports latest browsers
+	- Cloud Cannon - Jekyll / Ruby
 
+***
 
-—————————————————————————————————————————TESTING:————————————————————————————————————————
+## TESTING:
 
-GRAV DOWNLOAD NOTES
+### GRAV DOWNLOAD NOTES
 
-Download zip file
-Have to run php server from root folder (grav-admin) in terminal (view on localhost)
-php -S localhost:8000 system/router.php
-- admin plugin doesn't work with php server though (needs apache or similar)
+- Download zip file
+- Have to run php server from root folder (grav-admin) in terminal (view on localhost)
+- php -S localhost:8000 system/router.php
+	- admin plugin doesn't work with php server though (needs apache or similar)
 
-Edit local files or install admin plugin to enable GUI
-- local folder: grav/user/pages
-- Can make admin account (add “/admin” to end of your site’s url)
-- https://learn.getgrav.org/admin-panel
+- Edit local files or install admin plugin to enable GUI
+	- local folder: grav/user/pages
+	- Can make admin account (add “/admin” to end of your site’s url)
+	- https://learn.getgrav.org/admin-panel
 
 
 
-AUTOMAD DOWNLOAD NOTES
+### AUTOMAD DOWNLOAD NOTES
 
-Download zip file
-Have to run php server from root folder (www) in terminal (view on localhost)
-php -S localhost:8000
+- Download zip file
+- Have to run php server from root folder (www) in terminal (view on localhost)
+- php -S localhost:8000
 
-Edit local files or use online GUI
-- local folder: automad/www/pages
-- Can make admin account for web GUI (add “/gui” to end of localhost url)
+- Edit local files or use online GUI
+	- local folder: automad/www/pages
+	- Can make admin account for web GUI (add “/gui” to end of localhost url)
+- GUI:
+	- Page variables (title, content, tools) let templates be abstracted
+	- Can choose different layouts which prompt user for different input
 
-GUI:
-- Page variables (title, content, tools) let templates be abstracted
-- Can choose different layouts which prompt user for different input
-
-—————————————————————————————————————————THOUGHTS—————————————————————————————————————————
+## THOUGHTS
 
 Grav/Automad already converting markdown to html with the php
 - but how to alter the theming or templates?
