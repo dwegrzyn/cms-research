@@ -1,0 +1,17 @@
+/* Default Rules
+ {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+*/
+
+//Temporary Insecure Rules
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+
